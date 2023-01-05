@@ -6,10 +6,16 @@
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/index.js",
+    "build:start": "tsc && node ./dist/index.js",
+    "dev:nodemon": "nodemon -L src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Orlando Meriño",
+    "email": "mcarvajalor@gmail.com",
+    "url": "https://github.com/Carvajalo"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.12",

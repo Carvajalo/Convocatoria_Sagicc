@@ -1,6 +1,6 @@
 import { Router } from "express";
-import * as taskController from "./task.controllers";
-import notSupported from "./notSupported.controller";
+import * as taskController from "../controllers/task.controllers";
+import notSupported from "../controllers/notSupported.controller";
 
 
 const router = Router();
